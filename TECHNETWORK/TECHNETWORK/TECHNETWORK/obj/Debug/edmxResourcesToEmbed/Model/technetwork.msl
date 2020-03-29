@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TechnetworkModelStoreContainer" CdmEntityContainer="TechnetworkEntities">
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="TechnetworkModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Phone_number" ColumnName="Phone number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="TechnetworkModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Phone_number" ColumnName="Phone number" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="TechnetworkModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="Storage_require" ColumnName="Storage require" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Product_name" ColumnName="Product name" />
+          <ScalarProperty Name="Product_id" ColumnName="Product id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="TechnetworkModel.Service">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="Service_cost" ColumnName="Service cost" />
+          <ScalarProperty Name="Servicing_last_date" ColumnName="Servicing last date" />
+          <ScalarProperty Name="Service_provider_name" ColumnName="Service provider name" />
+          <ScalarProperty Name="Service_name" ColumnName="Service name" />
+          <ScalarProperty Name="Service_no" ColumnName="Service no" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Developers">
+      <EntityTypeMapping TypeName="TechnetworkModel.Developer">
+        <MappingFragment StoreEntitySet="Developer">
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="Phone_number" ColumnName="Phone number" />
+          <ScalarProperty Name="Email_id" ColumnName="Email id" />
+          <ScalarProperty Name="Developer_code" ColumnName="Developer code" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="Developer_name" ColumnName="Developer name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
